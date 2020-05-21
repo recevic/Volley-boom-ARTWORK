@@ -1,13 +1,13 @@
 [gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://arena ship/arena ship v2.gd" type="Script" id=1]
-[ext_resource path="res://arena ship/Symbol 5.png" type="Texture" id=2]
-[ext_resource path="res://arena ship/palof.png" type="Texture" id=3]
-[ext_resource path="res://arena ship/paloR.png" type="Texture" id=4]
-[ext_resource path="res://arena ship/net2.png" type="Texture" id=5]
-[ext_resource path="res://arena ship/bure1.png" type="Texture" id=6]
-[ext_resource path="res://arena ship/brod B.png" type="Texture" id=7]
-[ext_resource path="res://arena ship/brodF.png" type="Texture" id=8]
+[ext_resource path="res://arena ship/PNG/Symbol 5.png" type="Texture" id=2]
+[ext_resource path="res://arena ship/PNG/palof.png" type="Texture" id=3]
+[ext_resource path="res://arena ship/PNG/paloR.png" type="Texture" id=4]
+[ext_resource path="res://arena ship/PNG/net2.png" type="Texture" id=5]
+[ext_resource path="res://arena ship/PNG/bure1.png" type="Texture" id=6]
+[ext_resource path="res://arena ship/PNG/brod B.png" type="Texture" id=7]
+[ext_resource path="res://arena ship/PNG/brodF.png" type="Texture" id=8]
 
 [sub_resource type="Animation" id=1]
 resource_name = "New Anim"

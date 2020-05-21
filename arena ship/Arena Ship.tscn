@@ -1,12 +1,14 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://arena ship/BG.png" type="Texture" id=1]
-[ext_resource path="res://arena ship/sea front.png" type="Texture" id=2]
-[ext_resource path="res://arena ship/seaB.png" type="Texture" id=3]
-[ext_resource path="res://arena ship/ship f.png" type="Texture" id=4]
-[ext_resource path="res://arena ship/stage.png" type="Texture" id=5]
-[ext_resource path="res://arena ship/PAPER.png" type="Texture" id=6]
+[ext_resource path="res://arena ship/PNG/BG.png" type="Texture" id=1]
+[ext_resource path="res://arena ship/PNG/sea front.png" type="Texture" id=2]
+[ext_resource path="res://arena ship/PNG/seaB.png" type="Texture" id=3]
+[ext_resource path="res://arena ship/PNG/ship f.png" type="Texture" id=4]
+[ext_resource path="res://arena ship/PNG/stage.png" type="Texture" id=5]
+[ext_resource path="res://arena ship/PNG/PAPER.png" type="Texture" id=6]
 [ext_resource path="res://Bruce Killit/Char1v2 .tscn" type="PackedScene" id=7]
+
+
 
 [sub_resource type="Animation" id=1]
 resource_name = "sea"

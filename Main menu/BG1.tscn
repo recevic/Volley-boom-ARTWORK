@@ -1,13 +1,14 @@
 [gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://arena ship/BG1.gd" type="Script" id=1]
-[ext_resource path="res://Main menu/mreza.png" type="Texture" id=2]
-[ext_resource path="res://Main menu/brod.png" type="Texture" id=3]
-[ext_resource path="res://Main menu/nebo.png" type="Texture" id=4]
-[ext_resource path="res://Main menu/oblaci.png" type="Texture" id=5]
-[ext_resource path="res://Main menu/oblacici.png" type="Texture" id=6]
-[ext_resource path="res://Main menu/plaza.png" type="Texture" id=7]
-[ext_resource path="res://Main menu/zastavica.png" type="Texture" id=8]
+[ext_resource path="res://Main menu/PNG/mreza.png" type="Texture" id=2]
+[ext_resource path="res://Main menu/PNG/brod.png" type="Texture" id=3]
+[ext_resource path="res://Main menu/PNG/nebo.png" type="Texture" id=4]
+[ext_resource path="res://Main menu/PNG/oblaci.png" type="Texture" id=5]
+[ext_resource path="res://Main menu/PNG/oblacici.png" type="Texture" id=6]
+[ext_resource path="res://Main menu/PNG/plaza.png" type="Texture" id=7]
+[ext_resource path="res://Main menu/PNG/zastavica.png" type="Texture" id=8]
+
 
 [sub_resource type="Animation" id=1]
 resource_name = "flag"
