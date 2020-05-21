@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jhg0002.png-965ebf580784d7d56c5bd27514b7a830.stex"
+path="res://.import/jhg0003.png-134805002077a12ab76293d2228b6951.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bruce Killit/char walk/jhg0002.png"
-dest_files=[ "res://.import/jhg0002.png-965ebf580784d7d56c5bd27514b7a830.stex" ]
+source_file="res://Bruce Killit/rig textures test/jhg0003.png"
+dest_files=[ "res://.import/jhg0003.png-134805002077a12ab76293d2228b6951.stex" ]
 
 [params]
 

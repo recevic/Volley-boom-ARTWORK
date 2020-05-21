@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ball.png-6b12b6e2e89161581a3ca60a805ff0a4.stex"
+path="res://.import/smokev2.png-7280ecef0aec3534d88f847a74d64f16.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bruce Killit/ball.png"
-dest_files=[ "res://.import/ball.png-6b12b6e2e89161581a3ca60a805ff0a4.stex" ]
+source_file="res://Cannon ball/smokev2.png"
+dest_files=[ "res://.import/smokev2.png-7280ecef0aec3534d88f847a74d64f16.stex" ]
 
 [params]
 

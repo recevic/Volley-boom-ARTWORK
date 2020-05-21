@@ -8,8 +8,6 @@
 [ext_resource path="res://arena ship/PAPER.png" type="Texture" id=6]
 [ext_resource path="res://Bruce Killit/Char1v2 .tscn" type="PackedScene" id=7]
 
-
-
 [sub_resource type="Animation" id=1]
 resource_name = "sea"
 length = 3.0

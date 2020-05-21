@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jhg0010.png-1e638f631e338c5b42e8167e2a07b63b.stex"
+path="res://.import/bomb.png-8ed5b576618ca1338eba7ec98d8f047a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bruce Killit/char walk/jhg0010.png"
-dest_files=[ "res://.import/jhg0010.png-1e638f631e338c5b42e8167e2a07b63b.stex" ]
+source_file="res://Cannon ball/bomb.png"
+dest_files=[ "res://.import/bomb.png-8ed5b576618ca1338eba7ec98d8f047a.stex" ]
 
 [params]
 
