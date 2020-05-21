@@ -1,0 +1,221 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://arena ship/BG1.gd" type="Script" id=1]
+[ext_resource path="res://Main menu/mreza.png" type="Texture" id=2]
+[ext_resource path="res://Main menu/brod.png" type="Texture" id=3]
+[ext_resource path="res://Main menu/nebo.png" type="Texture" id=4]
+[ext_resource path="res://Main menu/oblaci.png" type="Texture" id=5]
+[ext_resource path="res://Main menu/oblacici.png" type="Texture" id=6]
+[ext_resource path="res://Main menu/plaza.png" type="Texture" id=7]
+[ext_resource path="res://Main menu/zastavica.png" type="Texture" id=8]
+
+[sub_resource type="Animation" id=1]
+resource_name = "flag"
+length = 0.3
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("zastavica:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2 ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 30.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("oblaci:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1328, 354 ), Vector2( -1184, 356 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("oblacici:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 14.7, 30 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1025, 540 ), Vector2( 857, 540 ), Vector2( 1025, 540 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("nebo:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = false
+tracks/2/keys = {
+"times": PoolRealArray( 0, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1171, 532 ), Vector2( 1123, 532 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("brod:position")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8, 10, 12.1, 14.1, 16.1, 18.1, 20.1, 22.1, 24.3, 26.3, 28.3, 30.3, 32.3, 34.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ), Vector2( 1811, 706 ), Vector2( 1813, 690 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "net"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Skeleton2D/Bone2D1/Bone2D2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 21.3988, -3.08972 ), Vector2( 21.3988, -3.08972 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Skeleton2D/Bone2D1:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 21.706, 24.3001, 21.706 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Skeleton2D/Bone2D1/Bone2D2/Bone2D3:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 11.3852, 18.2568, 11.3852 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Skeleton2D/Bone2D1/Bone2D2/Bone2D3:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 24.6695, 0.78141 ), Vector2( 26.5911, 1.9394 ), Vector2( 24.6695, 0.78141 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Skeleton2D/Bone2D1/Bone2D2:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="brod" type="Sprite" parent="."]
+position = Vector2( 1810.79, 707.661 )
+texture = ExtResource( 3 )
+
+[node name="nebo" type="Sprite" parent="."]
+position = Vector2( 1171, 532 )
+z_index = -1
+texture = ExtResource( 4 )
+
+[node name="oblacici" type="Sprite" parent="."]
+position = Vector2( 1021.9, 540 )
+texture = ExtResource( 6 )
+
+[node name="oblaci" type="Sprite" parent="."]
+position = Vector2( -1142.13, 355.967 )
+scale = Vector2( 0.974683, 1 )
+texture = ExtResource( 5 )
+
+[node name="oblaci" type="Sprite" parent="oblaci"]
+position = Vector2( 2591.61, 5 )
+texture = ExtResource( 5 )
+
+[node name="plaza" type="Sprite" parent="."]
+position = Vector2( 989, 606 )
+z_index = 3
+texture = ExtResource( 7 )
+
+[node name="zastavica" type="Sprite" parent="."]
+position = Vector2( 497, 126 )
+texture = ExtResource( 8 )
+hframes = 3
+frame = 2
+
+[node name="zastavica2" type="Sprite" parent="."]
+position = Vector2( 1327, 488 )
+scale = Vector2( 0.780488, 0.7 )
+texture = ExtResource( 8 )
+hframes = 3
+
+[node name="flag" type="AnimationPlayer" parent="."]
+anims/flag = SubResource( 1 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/bg1 = SubResource( 2 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 543, 108 )
+texture = ExtResource( 2 )
+skeleton = NodePath("../Skeleton2D")
+polygon = PoolVector2Array( 49, -9, 72, 131, 59, 236, -11, 300, -3, 335, 106, 349, 135, 441, 175, 509, 223, 466, 254, 392, 377, 488, 397, 454, 427, 428, 458, 511, 613, 528, 669, 538, 712, 497, 762, 509, 804, 551, 872, 504, 843, 424, 858, 359, 688, 327, 507, 267, 325, 193, 162, 81, 65, -8, 177, 213, 325, 351, 521, 379, 691, 424 )
+uv = PoolVector2Array( 49, -9, 72, 131, 59, 236, -11, 300, -3, 335, 106, 349, 135, 441, 175, 509, 223, 466, 254, 392, 377, 488, 397, 454, 427, 428, 458, 511, 613, 528, 669, 538, 712, 497, 762, 509, 804, 551, 872, 504, 843, 424, 858, 359, 688, 327, 507, 267, 325, 193, 162, 81, 65, -8, 177, 213, 325, 351, 521, 379, 691, 424 )
+polygons = [ PoolIntArray( 25, 1, 0, 26 ), PoolIntArray( 1, 2, 27, 25 ), PoolIntArray( 25, 24, 28, 27 ), PoolIntArray( 28, 9, 5, 27 ), PoolIntArray( 2, 5, 27 ), PoolIntArray( 5, 6, 8, 9 ), PoolIntArray( 9, 10, 11, 28 ), PoolIntArray( 28, 12, 23, 24 ), PoolIntArray( 11, 12, 28 ), PoolIntArray( 13, 12, 23, 29 ), PoolIntArray( 29, 30, 22, 23 ), PoolIntArray( 29, 13, 14, 30 ), PoolIntArray( 30, 16, 15, 14 ), PoolIntArray( 22, 21, 20, 30 ), PoolIntArray( 30, 16, 17, 20 ), PoolIntArray( 17, 18, 19, 20 ), PoolIntArray( 2, 5, 4, 3 ), PoolIntArray( 6, 7, 8 ) ]
+bones = [ NodePath("Bone2D1"), PoolRealArray( 0, 1, 1, 0.19, 0.19, 1, 1, 1, 0.81, 0.81, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.81, 1, 0, 1, 1, 0, 0 ), NodePath("Bone2D1/Bone2D2"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.81, 0.81, 1, 0.81, 0.81, 0, 0, 0, 0, 0, 0, 0, 0, 0.81, 0, 0, 0, 0, 0, 1, 0 ), NodePath("Bone2D1/Bone2D2/Bone2D3"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0.81, 0.19, 1, 0, 0.81, 0, 0, 0, 0, 0, 0, 0, 1 ) ]
+internal_vertex_count = 4
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="Bone2D1" type="Bone2D" parent="Skeleton2D"]
+position = Vector2( 621, 297 )
+rotation = 0.418338
+scale = Vector2( 12.739, -8.25 )
+rest = Transform2D( 11.9947, 4.29049, 2.7786, -7.76801, 621, 297 )
+
+[node name="Bone2D2" type="Bone2D" parent="Skeleton2D/Bone2D1"]
+position = Vector2( 21.3988, -3.08972 )
+rest = Transform2D( 1, 0, 0, 1, 21.3988, -3.08972 )
+
+[node name="Bone2D3" type="Bone2D" parent="Skeleton2D/Bone2D1/Bone2D2"]
+position = Vector2( 26.3459, 1.79161 )
+rotation = 0.303335
+rest = Transform2D( 0.980322, 0.197403, -0.197403, 0.980322, 24.6695, 0.78141 )
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
+anims/net = SubResource( 3 )

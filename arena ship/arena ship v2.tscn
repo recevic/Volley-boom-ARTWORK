@@ -1,0 +1,97 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://arena ship/Symbol 5.png" type="Texture" id=1]
+[ext_resource path="res://arena ship/arena ship v2.gd" type="Script" id=2]
+[ext_resource path="res://arena ship/palof.png" type="Texture" id=3]
+[ext_resource path="res://arena ship/paloR.png" type="Texture" id=4]
+[ext_resource path="res://arena ship/net2.png" type="Texture" id=5]
+[ext_resource path="res://arena ship/bure1.png" type="Texture" id=6]
+[ext_resource path="res://arena ship/brod B.png" type="Texture" id=7]
+[ext_resource path="res://arena ship/brodF.png" type="Texture" id=8]
+
+
+
+
+[sub_resource type="Animation" id=1]
+resource_name = "New Anim"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Skeleton2D/Bone2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.4, 3.3, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1074.69, 414.828 ), Vector2( 990.678, 419.777 ), Vector2( 1148.19, 424.726 ), Vector2( 1074.69, 414.828 ) ]
+}
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 0, 352 )
+scale = Vector2( 0.761827, 0.808298 )
+script = ExtResource( 2 )
+
+[node name="Ship back" type="Sprite" parent="."]
+position = Vector2( 1283, 110 )
+texture = ExtResource( 8 )
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 2, -2 )
+texture = ExtResource( 1 )
+skeleton = NodePath("../Skeleton2D")
+polygon = PoolVector2Array( 510, 200, 480, 10, 230, -20, 30, -20, 0, 280, 20, 470, 160, 550, 560, 570, 1030, 570, 1280, 560, 1730, 550, 2210, 540, 2370, 520, 2490, 350, 2520, 60, 2440, 0, 2070, 0, 2070, 170, 1720, 190, 1330, 190, 1090, 190, 650, 190, 260, 120, 290, 420, 360, 60, 390, 320, 620, 330, 1060, 320, 1320, 310, 1720, 310, 2120, 290, 2210, 80, 2190, 390, 2150, 50, 2390, 70, 2320, 290, 590, 440, 1040, 430, 1310, 420, 1720, 420 )
+uv = PoolVector2Array( 490, 200, 480, 10, 230, -20, 30, -20, 0, 280, 20, 470, 160, 550, 560, 570, 1030, 570, 1280, 560, 1730, 550, 2210, 540, 2370, 520, 2490, 350, 2520, 60, 2440, 0, 2070, 0, 2070, 170, 1720, 190, 1330, 190, 1090, 190, 650, 190, 260, 120, 290, 420, 360, 60, 390, 320, 600, 350, 1050, 340, 1290, 350, 1720, 330, 2120, 290, 2210, 80, 2190, 390, 2150, 50, 2390, 70, 2320, 290, 590, 440, 1040, 430, 1310, 420, 1720, 420 )
+polygons = [ PoolIntArray( 1, 24, 25, 0 ), PoolIntArray( 24, 22, 23, 25 ), PoolIntArray( 23, 36, 26, 25 ), PoolIntArray( 25, 0, 21, 26 ), PoolIntArray( 21, 20, 27, 26 ), PoolIntArray( 20, 19, 28, 27 ), PoolIntArray( 19, 18, 29, 28 ), PoolIntArray( 18, 17, 30, 29 ), PoolIntArray( 17, 16, 33, 30 ), PoolIntArray( 33, 31, 32, 30 ), PoolIntArray( 29, 39, 32, 30 ), PoolIntArray( 29, 28, 38, 39 ), PoolIntArray( 27, 37, 38, 28 ), PoolIntArray( 26, 36, 37, 27 ), PoolIntArray( 6, 5, 23 ), PoolIntArray( 23, 36, 7, 6 ), PoolIntArray( 36, 37, 8, 7 ), PoolIntArray( 37, 38, 9, 8 ), PoolIntArray( 38, 39, 10, 9 ), PoolIntArray( 39, 32, 11, 10 ), PoolIntArray( 2, 1, 24 ), PoolIntArray( 3, 2, 24, 22 ), PoolIntArray( 22, 23, 4, 3 ), PoolIntArray( 5, 4, 23 ), PoolIntArray( 32, 35, 12, 11 ), PoolIntArray( 35, 13, 12 ), PoolIntArray( 35, 34, 14, 13 ), PoolIntArray( 34, 31, 32, 35 ), PoolIntArray( 34, 15, 14 ), PoolIntArray( 31, 33, 15, 34 ), PoolIntArray( 33, 16, 15 ) ]
+bones = [ NodePath("Bone2D2"), PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), NodePath("Bone2D"), PoolRealArray( 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1, 1, 0.5, 1, 1, 1, 1, 1, 1 ) ]
+internal_vertex_count = 18
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="Bone2D2" type="Bone2D" parent="Skeleton2D"]
+position = Vector2( 1675.31, 251.841 )
+rest = Transform2D( 1, 0, 0, 1, 1638, 210 )
+
+[node name="Bone2D" type="Bone2D" parent="Skeleton2D"]
+position = Vector2( 1074.69, 414.828 )
+rest = Transform2D( 1, 0, 0, 1, 1080, 406 )
+default_length = 200.0
+
+[node name="barrel 1" type="Sprite" parent="Skeleton2D/Bone2D"]
+position = Vector2( -667, -54 )
+texture = ExtResource( 6 )
+flip_h = true
+
+[node name="Ship front" type="Sprite" parent="Skeleton2D/Bone2D"]
+position = Vector2( 187, 90 )
+scale = Vector2( 1.23556, 0.966667 )
+texture = ExtResource( 7 )
+
+[node name="stick front" type="Sprite" parent="Skeleton2D/Bone2D"]
+position = Vector2( 123, -152 )
+scale = Vector2( 1.23077, 1.37864 )
+texture = ExtResource( 3 )
+
+[node name="stick back" type="Sprite" parent="."]
+position = Vector2( 1323, 68 )
+scale = Vector2( 1.23077, 1.37864 )
+texture = ExtResource( 4 )
+
+[node name="net" type="Polygon2D" parent="."]
+position = Vector2( 1166, -62 )
+scale = Vector2( 1.75362, 1.33333 )
+texture = ExtResource( 5 )
+skeleton = NodePath("../Skeleton2D")
+polygon = PoolVector2Array( 0, 100, 0, 280, 90, 140, 90, -20 )
+uv = PoolVector2Array( 0, 100, 0, 280, 90, 140, 90, -20 )
+bones = [ NodePath("Bone2D"), PoolRealArray( 1, 1, 0, 0 ) ]
+
+[node name="barrel 2" type="Sprite" parent="."]
+position = Vector2( 2036.86, 192.537 )
+z_index = 1
+texture = ExtResource( 6 )
+flip_h = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/New Anim" = SubResource( 1 )
