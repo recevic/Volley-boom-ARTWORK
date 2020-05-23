@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jhg0007.png-5ea1351e88bae8404753a8e4159cb960.stex"
+path="res://.import/smokev2.png-b5ccea43f1ca3817e6109e7e355d0ea9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bruce Killit/rig textures test/jhg0007.png"
-dest_files=[ "res://.import/jhg0007.png-5ea1351e88bae8404753a8e4159cb960.stex" ]
+source_file="res://Bomb/PNG/smokev2.png"
+dest_files=[ "res://.import/smokev2.png-b5ccea43f1ca3817e6109e7e355d0ea9.stex" ]
 
 [params]
 
